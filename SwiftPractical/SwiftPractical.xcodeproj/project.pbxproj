@@ -22,6 +22,8 @@
 		83B2A5ED27AA49BF00C659C0 /* 枚举.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5E427AA49BF00C659C0 /* 枚举.swift */; };
 		83B2A5EE27AA49BF00C659C0 /* Protocal协议.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5E527AA49BF00C659C0 /* Protocal协议.swift */; };
 		83B2A5EF27AA49BF00C659C0 /* 闭包.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5E627AA49BF00C659C0 /* 闭包.swift */; };
+		83B2A5F127AA4B9600C659C0 /* 01变量和常量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5F027AA4B9600C659C0 /* 01变量和常量.swift */; };
+		83B2A5F327AA4C2700C659C0 /* 02字符和字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5F227AA4C2700C659C0 /* 02字符和字符串.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		83B2A5E427AA49BF00C659C0 /* 枚举.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "枚举.swift"; sourceTree = "<group>"; };
 		83B2A5E527AA49BF00C659C0 /* Protocal协议.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Protocal协议.swift"; sourceTree = "<group>"; };
 		83B2A5E627AA49BF00C659C0 /* 闭包.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "闭包.swift"; sourceTree = "<group>"; };
+		83B2A5F027AA4B9600C659C0 /* 01变量和常量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01变量和常量.swift"; sourceTree = "<group>"; };
+		83B2A5F227AA4C2700C659C0 /* 02字符和字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02字符和字符串.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,14 +93,16 @@
 		83B2A5DD27AA49BF00C659C0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				83B2A5E627AA49BF00C659C0 /* 闭包.swift */,
-				83B2A5E027AA49BF00C659C0 /* 访问级别.swift */,
-				83B2A5DF27AA49BF00C659C0 /* 函数.swift */,
+				83B2A5F027AA4B9600C659C0 /* 01变量和常量.swift */,
+				83B2A5F227AA4C2700C659C0 /* 02字符和字符串.swift */,
 				83B2A5E227AA49BF00C659C0 /* 基本运算符.swift */,
-				83B2A5DE27AA49BF00C659C0 /* 结构体.swift */,
-				83B2A5E127AA49BF00C659C0 /* 可选项.swift */,
 				83B2A5E327AA49BF00C659C0 /* 流程控制.swift */,
 				83B2A5E427AA49BF00C659C0 /* 枚举.swift */,
+				83B2A5DE27AA49BF00C659C0 /* 结构体.swift */,
+				83B2A5E127AA49BF00C659C0 /* 可选项.swift */,
+				83B2A5DF27AA49BF00C659C0 /* 函数.swift */,
+				83B2A5E627AA49BF00C659C0 /* 闭包.swift */,
+				83B2A5E027AA49BF00C659C0 /* 访问级别.swift */,
 				83B2A5E527AA49BF00C659C0 /* Protocal协议.swift */,
 			);
 			path = Classes;
@@ -175,8 +181,10 @@
 			files = (
 				83B2A5E927AA49BF00C659C0 /* 访问级别.swift in Sources */,
 				83B2A5EB27AA49BF00C659C0 /* 基本运算符.swift in Sources */,
+				83B2A5F127AA4B9600C659C0 /* 01变量和常量.swift in Sources */,
 				83B2A5EE27AA49BF00C659C0 /* Protocal协议.swift in Sources */,
 				83B2A5EC27AA49BF00C659C0 /* 流程控制.swift in Sources */,
+				83B2A5F327AA4C2700C659C0 /* 02字符和字符串.swift in Sources */,
 				83B2A5ED27AA49BF00C659C0 /* 枚举.swift in Sources */,
 				83B2A5BC27AA492400C659C0 /* ViewController.swift in Sources */,
 				83B2A5B827AA492400C659C0 /* AppDelegate.swift in Sources */,
