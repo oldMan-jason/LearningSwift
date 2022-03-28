@@ -18,8 +18,16 @@ class ViewController: UIViewController {
         let arr = ArrayObject();
         arr.testMethod()
 //        arr.pratical()
+        
     }
 
 
+    func testAsynMethod() async {
+        
+        //并发
+        let bf = BingfaObject()
+        await bf.asyncMethod(value: "text")
+        print("--")
+    }
 }
 

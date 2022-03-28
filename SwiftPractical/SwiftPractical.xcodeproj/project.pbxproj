@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8331612A27F19E5400B78E50 /* 基础部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8331612927F19E5400B78E50 /* 基础部分.swift */; };
 		83B2A5B827AA492400C659C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5B727AA492400C659C0 /* AppDelegate.swift */; };
 		83B2A5BA27AA492400C659C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5B927AA492400C659C0 /* SceneDelegate.swift */; };
 		83B2A5BC27AA492400C659C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5BB27AA492400C659C0 /* ViewController.swift */; };
@@ -20,14 +21,18 @@
 		83B2A5EC27AA49BF00C659C0 /* 05流程控制.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5E327AA49BF00C659C0 /* 05流程控制.swift */; };
 		83B2A5ED27AA49BF00C659C0 /* 枚举.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5E427AA49BF00C659C0 /* 枚举.swift */; };
 		83B2A5EE27AA49BF00C659C0 /* Protocal协议.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5E527AA49BF00C659C0 /* Protocal协议.swift */; };
-		83B2A5EF27AA49BF00C659C0 /* 闭包.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5E627AA49BF00C659C0 /* 闭包.swift */; };
+		83B2A5EF27AA49BF00C659C0 /* 07闭包.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5E627AA49BF00C659C0 /* 07闭包.swift */; };
 		83B2A5F127AA4B9600C659C0 /* 01变量和常量.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5F027AA4B9600C659C0 /* 01变量和常量.swift */; };
 		83B2A5F327AA4C2700C659C0 /* 02字符和字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5F227AA4C2700C659C0 /* 02字符和字符串.swift */; };
 		83B2A5F527AA4CCB00C659C0 /* 03数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5F427AA4CCB00C659C0 /* 03数组.swift */; };
 		83B2A5F727AA4F0900C659C0 /* 04字典.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5F627AA4F0900C659C0 /* 04字典.swift */; };
+		83B2A5F927AB7A0300C659C0 /* 并发.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5F827AB7A0300C659C0 /* 并发.swift */; };
+		83B2A5FB27ABAB3400C659C0 /* 扩展.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5FA27ABAB3400C659C0 /* 扩展.swift */; };
+		83B2A5FD27ABB00400C659C0 /* 协议.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5FC27ABB00400C659C0 /* 协议.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8331612927F19E5400B78E50 /* 基础部分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "基础部分.swift"; sourceTree = "<group>"; };
 		83B2A5B427AA492400C659C0 /* SwiftPractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B2A5B727AA492400C659C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B2A5B927AA492400C659C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,11 +48,14 @@
 		83B2A5E327AA49BF00C659C0 /* 05流程控制.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "05流程控制.swift"; sourceTree = "<group>"; };
 		83B2A5E427AA49BF00C659C0 /* 枚举.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "枚举.swift"; sourceTree = "<group>"; };
 		83B2A5E527AA49BF00C659C0 /* Protocal协议.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Protocal协议.swift"; sourceTree = "<group>"; };
-		83B2A5E627AA49BF00C659C0 /* 闭包.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "闭包.swift"; sourceTree = "<group>"; };
+		83B2A5E627AA49BF00C659C0 /* 07闭包.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "07闭包.swift"; sourceTree = "<group>"; };
 		83B2A5F027AA4B9600C659C0 /* 01变量和常量.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01变量和常量.swift"; sourceTree = "<group>"; };
 		83B2A5F227AA4C2700C659C0 /* 02字符和字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02字符和字符串.swift"; sourceTree = "<group>"; };
 		83B2A5F427AA4CCB00C659C0 /* 03数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03数组.swift"; sourceTree = "<group>"; };
 		83B2A5F627AA4F0900C659C0 /* 04字典.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04字典.swift"; sourceTree = "<group>"; };
+		83B2A5F827AB7A0300C659C0 /* 并发.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "并发.swift"; sourceTree = "<group>"; };
+		83B2A5FA27ABAB3400C659C0 /* 扩展.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "扩展.swift"; sourceTree = "<group>"; };
+		83B2A5FC27ABB00400C659C0 /* 协议.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "协议.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8331612827F19E4100B78E50 /* SwiftPackage */ = {
+			isa = PBXGroup;
+			children = (
+				8331612927F19E5400B78E50 /* 基础部分.swift */,
+			);
+			path = SwiftPackage;
+			sourceTree = "<group>";
+		};
 		83B2A5AB27AA492400C659C0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +99,7 @@
 				83B2A5B727AA492400C659C0 /* AppDelegate.swift */,
 				83B2A5B927AA492400C659C0 /* SceneDelegate.swift */,
 				83B2A5BB27AA492400C659C0 /* ViewController.swift */,
+				8331612827F19E4100B78E50 /* SwiftPackage */,
 				83B2A5DD27AA49BF00C659C0 /* Classes */,
 				83B2A5BD27AA492400C659C0 /* Main.storyboard */,
 				83B2A5C027AA492500C659C0 /* Assets.xcassets */,
@@ -101,12 +118,15 @@
 				83B2A5F627AA4F0900C659C0 /* 04字典.swift */,
 				83B2A5E327AA49BF00C659C0 /* 05流程控制.swift */,
 				83B2A5DF27AA49BF00C659C0 /* 06函数.swift */,
+				83B2A5E627AA49BF00C659C0 /* 07闭包.swift */,
 				83B2A5E427AA49BF00C659C0 /* 枚举.swift */,
 				83B2A5DE27AA49BF00C659C0 /* 结构体.swift */,
 				83B2A5E127AA49BF00C659C0 /* 可选项.swift */,
-				83B2A5E627AA49BF00C659C0 /* 闭包.swift */,
 				83B2A5E027AA49BF00C659C0 /* 访问级别.swift */,
 				83B2A5E527AA49BF00C659C0 /* Protocal协议.swift */,
+				83B2A5F827AB7A0300C659C0 /* 并发.swift */,
+				83B2A5FA27ABAB3400C659C0 /* 扩展.swift */,
+				83B2A5FC27ABB00400C659C0 /* 协议.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -188,13 +208,17 @@
 				83B2A5EE27AA49BF00C659C0 /* Protocal协议.swift in Sources */,
 				83B2A5EC27AA49BF00C659C0 /* 05流程控制.swift in Sources */,
 				83B2A5F327AA4C2700C659C0 /* 02字符和字符串.swift in Sources */,
+				83B2A5FD27ABB00400C659C0 /* 协议.swift in Sources */,
 				83B2A5ED27AA49BF00C659C0 /* 枚举.swift in Sources */,
 				83B2A5F727AA4F0900C659C0 /* 04字典.swift in Sources */,
+				83B2A5FB27ABAB3400C659C0 /* 扩展.swift in Sources */,
 				83B2A5BC27AA492400C659C0 /* ViewController.swift in Sources */,
 				83B2A5B827AA492400C659C0 /* AppDelegate.swift in Sources */,
+				83B2A5F927AB7A0300C659C0 /* 并发.swift in Sources */,
 				83B2A5EA27AA49BF00C659C0 /* 可选项.swift in Sources */,
 				83B2A5E727AA49BF00C659C0 /* 结构体.swift in Sources */,
-				83B2A5EF27AA49BF00C659C0 /* 闭包.swift in Sources */,
+				83B2A5EF27AA49BF00C659C0 /* 07闭包.swift in Sources */,
+				8331612A27F19E5400B78E50 /* 基础部分.swift in Sources */,
 				83B2A5E827AA49BF00C659C0 /* 06函数.swift in Sources */,
 				83B2A5BA27AA492400C659C0 /* SceneDelegate.swift in Sources */,
 			);
