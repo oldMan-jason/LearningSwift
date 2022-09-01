@@ -1,11 +1,13 @@
 //
 //  闭包.swift
-//  SwiftGrammar
+//  SwiftPractical
 //
-//  Created by shaozejun on 2021/11/21.
+//  Created by shaozejun on 2022/4/18.
 //
 
+import Foundation
 import UIKit
+
 /**
     闭包表达式
     {
@@ -14,7 +16,7 @@ import UIKit
     }
  */
 
-class BiBaoViewController: UIViewController {
+class SwiftBiBaoModule: UIViewController {
     
     var comhandle:((_ value: AnyObject) -> (Void))?
     
@@ -92,5 +94,3 @@ extension ViewController {
     
     
 }
-
-

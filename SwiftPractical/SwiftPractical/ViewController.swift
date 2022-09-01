@@ -12,22 +12,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let sobj = SwiftStringModule();
+        sobj.chapaterIndex()
         
         
+        let fun = SwiftFunctionObject()
+        fun.test()
         
-        let arr = ArrayObject();
-        arr.testMethod()
-//        arr.pratical()
+        SwiftPropertyModule()
         
-    }
-
-
-    func testAsynMethod() async {
-        
-        //并发
-        let bf = BingfaObject()
-        await bf.asyncMethod(value: "text")
-        print("--")
     }
 }
 

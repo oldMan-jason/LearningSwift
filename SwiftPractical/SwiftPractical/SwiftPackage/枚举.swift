@@ -1,11 +1,11 @@
 //
 //  枚举.swift
-//  SwiftGrammar
+//  SwiftPractical
 //
-//  Created by shaozejun on 2021/8/28.
+//  Created by shaozejun on 2022/5/18.
 //
 
-import UIKit
+import Foundation
 
 /**
  基本定义
@@ -41,7 +41,7 @@ indirect enum ArithExpr {
     case diff(ArithExpr,ArithExpr)
 }
 
-class SwiftENUM: UIViewController {
+class SwiftENUM: NSObject {
     
     //永远不会被内联
     @inline(never) func test () {
@@ -101,3 +101,4 @@ class SwiftENUM: UIViewController {
         
     }
 }
+
