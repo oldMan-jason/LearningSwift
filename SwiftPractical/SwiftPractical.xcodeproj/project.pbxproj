@@ -15,6 +15,8 @@
 		8331612A27F19E5400B78E50 /* 基础部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8331612927F19E5400B78E50 /* 基础部分.swift */; };
 		8331612C27F1B82600B78E50 /* 基本运算符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8331612B27F1B82600B78E50 /* 基本运算符.swift */; };
 		8342FF97281BC3D800914836 /* 函数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342FF96281BC3D800914836 /* 函数.swift */; };
+		83ACD13229261FDA00915805 /* 继承.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ACD13129261FDA00915805 /* 继承.swift */; };
+		83ACD1342926213A00915805 /* 构造过程.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ACD1332926213A00915805 /* 构造过程.swift */; };
 		83B2A5B827AA492400C659C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5B727AA492400C659C0 /* AppDelegate.swift */; };
 		83B2A5BA27AA492400C659C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5B927AA492400C659C0 /* SceneDelegate.swift */; };
 		83B2A5BC27AA492400C659C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5BB27AA492400C659C0 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 		8331612927F19E5400B78E50 /* 基础部分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "基础部分.swift"; sourceTree = "<group>"; };
 		8331612B27F1B82600B78E50 /* 基本运算符.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "基本运算符.swift"; sourceTree = "<group>"; };
 		8342FF96281BC3D800914836 /* 函数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "函数.swift"; sourceTree = "<group>"; };
+		83ACD13129261FDA00915805 /* 继承.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "继承.swift"; sourceTree = "<group>"; };
+		83ACD1332926213A00915805 /* 构造过程.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "构造过程.swift"; sourceTree = "<group>"; };
 		83B2A5B427AA492400C659C0 /* SwiftPractical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPractical.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B2A5B727AA492400C659C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83B2A5B927AA492400C659C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				83D3C97E2834DF5400E23131 /* 属性.swift */,
 				83C0A53C28586F9E00899AEA /* 方法.swift */,
 				83C0A53E2858746800899AEA /* 下标.swift */,
+				83ACD13129261FDA00915805 /* 继承.swift */,
+				83ACD1332926213A00915805 /* 构造过程.swift */,
 			);
 			path = SwiftPackage;
 			sourceTree = "<group>";
@@ -185,10 +191,12 @@
 				83C0A53F2858746800899AEA /* 下标.swift in Sources */,
 				830F27232834D1B70064B0E0 /* 类和结构体.swift in Sources */,
 				8342FF97281BC3D800914836 /* 函数.swift in Sources */,
+				83ACD13229261FDA00915805 /* 继承.swift in Sources */,
 				83C0A53D28586F9E00899AEA /* 方法.swift in Sources */,
 				83294FE0280D5DBE008F5719 /* 闭包.swift in Sources */,
 				83B2A5BC27AA492400C659C0 /* ViewController.swift in Sources */,
 				83B2A5B827AA492400C659C0 /* AppDelegate.swift in Sources */,
+				83ACD1342926213A00915805 /* 构造过程.swift in Sources */,
 				8331612A27F19E5400B78E50 /* 基础部分.swift in Sources */,
 				83D3C97F2834DF5400E23131 /* 属性.swift in Sources */,
 				83B2A5BA27AA492400C659C0 /* SceneDelegate.swift in Sources */,
@@ -341,7 +349,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J9NBUFPPP4;
+				DEVELOPMENT_TEAM = NFCJTR9ZQL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftPractical/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -349,7 +357,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,7 +378,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J9NBUFPPP4;
+				DEVELOPMENT_TEAM = NFCJTR9ZQL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftPractical/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -378,7 +386,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

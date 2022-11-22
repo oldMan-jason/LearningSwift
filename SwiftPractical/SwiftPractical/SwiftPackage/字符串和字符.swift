@@ -78,7 +78,7 @@ class SwiftStringModule: NSObject {
      */
     var stringIndex = "hello word"
     func chapaterIndex() -> Void {
-
+        
         for index in stringIndex.indices {
             print("\(stringIndex[index]) ", terminator: "")
         }

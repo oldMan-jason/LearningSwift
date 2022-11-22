@@ -19,8 +19,17 @@ class ViewController: UIViewController {
         let fun = SwiftFunctionObject()
         fun.test()
         
-        SwiftPropertyModule()
+        let pro = SwiftPropertyModule()
+        pro.step = 1
+        pro.height = 20
+        print(pro.height)
+        
+        
+        //构造过程
+        let setup = SetupClass(money: 1)
         
     }
+    
+    
 }
 

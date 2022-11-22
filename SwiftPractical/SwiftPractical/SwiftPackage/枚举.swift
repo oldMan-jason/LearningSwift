@@ -14,6 +14,7 @@ enum Direction {
     case north,south,east,west
 }
 
+
 /**
  枚举的关联值
  */
@@ -98,6 +99,8 @@ class SwiftENUM: NSObject {
         
         let value = cal(expr: sum)
         print(value)
+        
+        
         
     }
 }
